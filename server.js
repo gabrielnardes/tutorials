@@ -9,7 +9,7 @@ Verbos HTTP
 GET: receber dados de um resource
 POST: enviar dados/informações para resource processar
 PUT: atualizar dados de um resource
-DELETE: deleter um resource
+DELETE: deletar um resource
 
 URI = http://localhost:3000/clients
 endpoint = clients
@@ -22,7 +22,6 @@ app.get("/clients", (req, res) => {
     res.json(data)
 })
 
-
 app.get("/clients/:id", (req, res) => {
     const { id } = req.params
     const client = data.find(cli => cli.id == id)
@@ -34,9 +33,7 @@ app.get("/clients/:id", (req, res) => {
 
 app.post("/clients", (req, res) => {
     const { name, email } = req.body
-
-    // save to json
-
+    // save
     res.json({ name, email })
 })
 
@@ -59,8 +56,6 @@ app.delete("/clients/:id", (req, res) => {
 
     res.json(clientsFiltered)
 })
-
-
 
 app.listen(3000, () => {
     console.log("Server running"); 
