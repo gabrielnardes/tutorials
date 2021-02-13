@@ -1,4 +1,5 @@
-# ROCKETSEAT
+<h1 align="center"> <img src="https://raw.githubusercontent.com/gabrielnardes/tutorial-rocketseat-rest/main/rocketseat.png" alt="drawing" width="500"/></h1>
+
 
 Código elaborado com base no tutorial da Rocketseat sobre REST API.
 
