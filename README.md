@@ -3,7 +3,7 @@
 This project was made based on [WebDevSimplified](https://www.youtube.com/c/WebDevSimplified) tutorial about Full Stack Web development.
 
 ## 🖥️ Project name: *Mybrary*.
-## 🤔 Why you made this project?
+## 🤔 Why did you made this project?
 I wanted to practice Node.js and learn MongoDB, MVC model, and how to deploy in Heroku.
 ## 💬 What it is?
 A library that display information about the books and authors you added. 
