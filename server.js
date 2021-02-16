@@ -9,13 +9,14 @@ const bodyParser = require('body-parser');
 
 const indexRouter = require('./routes/index');
 const authorRouter = require('./routes/authors');
+const bookRouter = require('./routes/books');
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 app.set('layout', 'layouts/layout');
 app.use(expressLayouts);
 app.use(express.static('public'));
-app.use(bodyParser.urlencoded({ limit: '10mb', extended: false}));
+app.use(express.urlencoded({ limit: '10mb', extended: false}));
 
 const mongoose = require('mongoose');
 mongoose.connect(process.env.DATABASE_URL, {
@@ -28,7 +29,8 @@ db.once('open', () => console.log('Connect to db'));
 
 app.use('/', indexRouter);
 app.use('/authors', authorRouter);
+app.use('/books', bookRouter);
 
-const listener = app.listen(process.env.PORT || 3000, () => {
-    console.log("Express server listening on port %d in %s mode", listener.address().port, app.settings.env);
+app.listen(process.env.PORT || 3000, function() {
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
