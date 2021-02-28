@@ -11,7 +11,7 @@ export default {
     bail: true,
 
     // The directory where Jest should store its cached dependency information
-    // cacheDirectory: "C:\\Users\\gabri\\AppData\\Local\\Temp\\jest",
+    // cacheDirectory: "",
 
     // Automatically clear mock calls and instances between every test
     clearMocks: true,
