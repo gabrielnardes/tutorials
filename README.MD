@@ -111,6 +111,8 @@ And get it's id from `GET http://localhost:3333/surveys`
 
 4. The user answers the survey
 
+![](https://raw.githubusercontent.com/gabrielnardes/tutorial-rocketseat-nlw4/main/imgs/npsSurvey.png)
+
 5. You check your NPS score at `GET http://localhost:3333/nps/:survey_id`
 
 ```
