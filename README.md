@@ -1,6 +1,4 @@
-<p align="center">
-	<h1 align="center">Mybrary</h1>
-</p>
+<h1 align="center" style="font-style: italic; font-weight: bold">Mybrary</h1>
 
 ## 💬 What it is?
 
@@ -36,21 +34,21 @@ It looks like this:
 
 1. Show all authors
 
-<img src="imgs/show-authors.png" alt="icon-yt" width="450"/>
+<img src="imgs/show-authors.png" alt="icon-yt" width="500"/>
 
 2. Add, show, edit and delete a specific author
 
-<img src="imgs/add-author.png" alt="icon-yt" width="450"/>
+<img src="imgs/add-author.png" alt="icon-yt" width="500"/>
 
 4. Show all books
 
-<img src="imgs/show-books.png" alt="icon-yt" width="450"/>
+<img src="imgs/show-books.png" alt="icon-yt" width="500"/>
 
 5. Add, show, edit and delete a specific book
 
-<img src="imgs/add-book.png" alt="icon-yt" width="450"/>
+<img src="imgs/add-book.png" alt="icon-yt" width="500"/>
 
-<img src="imgs/book-info.png" alt="icon-yt" width="450"/>
+<img src="imgs/book-info.png" alt="icon-yt" width="500"/>
 
 <p>
   <img src="https://raw.githubusercontent.com/gabrielnardes/tutorial-rocketseat-rest/main/icon-yt.png" alt="icon-yt" width="25"/>
