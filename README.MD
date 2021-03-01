@@ -1,12 +1,14 @@
-## 🖥️ Project name: _NLW#4 - Node.js_
-
-## 🤔 Why did you made this project?
-
-I wanted to improve and practice my skills in Node.js.
+<p align="center">
+	<h1 align="center">NLW#4 - Node.js</h1>
+</p>
 
 ## 💬 What is it?
 
 It is a email sender application, which sends surveys to users and calculates the NPS (Net Promoter Score) based on the surveys answers.
+
+## 🤔 Why did you made this project?
+
+I wanted to improve and practice my skills in Node.js.
 
 ## 🛠️ What technologies did you use?
 
@@ -88,7 +90,6 @@ To exemplify this:
 And get it's id from `GET http://localhost:3333/surveys`
 
 ```
-
 [
   {
     "id": "1a181ac7-c432-47ba-a1cb-37d0dd8ceb63",
@@ -97,7 +98,6 @@ And get it's id from `GET http://localhost:3333/surveys`
     "created_at": "2021-03-01T00:28:19.000Z"
   }
 ]
-
 ```
 
 3. Send the survey to users's email at `POST http://localhost:3333/sendMail`
