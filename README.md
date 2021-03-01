@@ -40,11 +40,11 @@ It looks like this:
 
 <img src="imgs/add-author.png" alt="icon-yt" width="500"/>
 
-4. Show all books
+3. Show all books
 
 <img src="imgs/show-books.png" alt="icon-yt" width="500"/>
 
-5. Add, show, edit and delete a specific book
+4. Add, show, edit and delete a specific book
 
 <img src="imgs/add-book.png" alt="icon-yt" width="500"/>
 
