@@ -57,7 +57,7 @@ Run the application
 yarn dev
 ```
 
-You will be dealing with json to interact with the application. The ideia is to:
+You will be dealing with JSON to interact with the application. The idea is to:
 
 1. Create users
 1. Create a survey
@@ -67,7 +67,7 @@ You will be dealing with json to interact with the application. The ideia is to:
 
 To exemplify this:
 
-1. Create users at `http://localhost:3333/users`
+1. Create users at `POST http://localhost:3333/users`
 
 ```
 {
@@ -76,7 +76,7 @@ To exemplify this:
 }
 ```
 
-2. Create a survey at `http://localhost:3333/surveys`
+2. Create a survey at `POST http://localhost:3333/surveys`
 
 ```
 {
@@ -85,7 +85,22 @@ To exemplify this:
 }
 ```
 
-3. Send the survey to users's email at `http://localhost:3333/sendMail`
+And get it's id from `GET http://localhost:3333/surveys`
+
+```
+
+[
+  {
+    "id": "1a181ac7-c432-47ba-a1cb-37d0dd8ceb63",
+    "title": "Client satisfaction survey",
+    "description": "How likely are you to buy from us again?",
+    "created_at": "2021-03-01T00:28:19.000Z"
+  }
+]
+
+```
+
+3. Send the survey to users's email at `POST http://localhost:3333/sendMail`
 
 ```
 {
@@ -96,7 +111,7 @@ To exemplify this:
 
 4. The user answers the survey
 
-5. You check your NPS score at `http://localhost:3333/nps/:survey_id`
+5. You check your NPS score at `GET http://localhost:3333/nps/:survey_id`
 
 ```
 {
