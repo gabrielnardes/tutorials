@@ -1,6 +1,4 @@
-# ⚠️ Still in progress
-
-## 🖥️ Project name: _NLW#4: Node.js_
+## 🖥️ Project name: _NLW#4 - Node.js_
 
 ## 🤔 Why did you made this project?
 
@@ -59,7 +57,7 @@ Run the application
 yarn dev
 ```
 
-You will be dealing with json files to interact with the application. The ideia is to:
+You will be dealing with json to interact with the application. The ideia is to:
 
 1. Create users
 1. Create a survey
@@ -73,8 +71,8 @@ To exemplify this:
 
 ```
 {
-	"name": "Isaac Newton",
-	"email": "isaac@newton.com"
+  "name": "Isaac Newton",
+  "email": "isaac@newton.com"
 }
 ```
 
@@ -82,8 +80,8 @@ To exemplify this:
 
 ```
 {
-	"title": "Client satisfaction survey",
-	"description": "How likely are you to buy from us again?"
+  "title": "Client satisfaction survey",
+  "description": "How likely are you to buy from us again?"
 }
 ```
 
@@ -91,8 +89,8 @@ To exemplify this:
 
 ```
 {
-	"email": "isaac@newton.com",
-	"survey_id": "1a181ac7-c432-47ba-a1cb-37d0dd8ceb63"
+  "email": "isaac@newton.com",
+  "survey_id": "1a181ac7-c432-47ba-a1cb-37d0dd8ceb63"
 }
 ```
 
