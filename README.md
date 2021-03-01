@@ -1,26 +1,57 @@
-# ⚠️ Still in progress
+<p align="center">
+	<h1 align="center">Mybrary</h1>
+</p>
 
-This project was made based on [WebDevSimplified](https://www.youtube.com/c/WebDevSimplified) tutorial about Full Stack Web development.
-
-## 🖥️ Project name: *Mybrary*.
-## 🤔 Why did you made this project?
-I wanted to practice Node.js and learn MongoDB, MVC model, and how to deploy in Heroku.
 ## 💬 What it is?
-A library that display information about the books and authors you added. 
+
+A library that display information about the books and authors you added.
+
+## 🤔 Why did you made this project?
+
+I wanted to practice Node.js and learn MongoDB, MVC model, and how to deploy in Heroku.
+
 ## 🛠️ What technologies did you use?
-- HTML
-- CSS
-- Javascript
-- Node.js
-- Express.js
-- MongoDB Atlas
-- EJS
-- Heroku
+
+-   HTML
+-   CSS
+-   Javascript
+-   Node.js
+-   Express.js
+-   MongoDB Atlas
+-   EJS
+-   Heroku
+
 ## 🕹️ How to execute?
-Wait for more information. For the time being, you can try to access this [link](https://tutorial-mybrary.herokuapp.com/), but be aware, it may be broken!
-<br>
-## 👀 And how it looks like?
-Not yet!
+
+Just access this [link](https://tutorial-mybrary.herokuapp.com/), it already contains some books and authors.
+
+The functionalities are:
+
+1. Show all authors
+1. Add, show, edit and delete a specific author
+1. Show all books
+1. Add, show, edit and delete a specific author
+
+It looks like this:
+
+1. Show all authors
+
+<img src="imgs/show-authors.png" alt="icon-yt" width="450"/>
+
+2. Add, show, edit and delete a specific author
+
+<img src="imgs/add-author.png" alt="icon-yt" width="450"/>
+
+4. Show all books
+
+<img src="imgs/show-books.png" alt="icon-yt" width="450"/>
+
+5. Add, show, edit and delete a specific book
+
+<img src="imgs/add-book.png" alt="icon-yt" width="450"/>
+
+<img src="imgs/book-info.png" alt="icon-yt" width="450"/>
+
 <p>
   <img src="https://raw.githubusercontent.com/gabrielnardes/tutorial-rocketseat-rest/main/icon-yt.png" alt="icon-yt" width="25"/>
   <a href="https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8jbFkBjOuFjhxANC63OmXM">Full Stack Web Development Course</a>
