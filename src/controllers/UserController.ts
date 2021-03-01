@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
 import { getCustomRepository } from 'typeorm';
 import { UsersRepository } from '../repositories/UsersRepository';
-import * as yup from 'yup';
 import { AppError } from '../errors/AppError';
+import * as yup from 'yup';
 
 class UserController {
     async create(req: Request, res: Response) {
