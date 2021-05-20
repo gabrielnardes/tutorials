@@ -1,7 +1,7 @@
 # Tutorials
-This repository just stores all the code I write that is related to the tutorials I take. Most of it it's me typewriting the instructions, so generally it is not my original work. Instead of creating a repository for each tutorial, I create a branch for each tutorial, and this repo alone joins everything. The reason is not to polute my GitHub with stuff that it is not mine.
+This repository is a summary for all the code I write that is related to the tutorials I take. Most of it it's me typewriting the instructions, so generally it is not my original work. 
 
-The branches names are organized in <author/project>.
+Each repository is named in the format `tutorial-<author>-<project_name>`.
 
 | Author  |  Reference  | Repository |
 | ------------------- | ------------------- | ------------------- |
